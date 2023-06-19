@@ -7,7 +7,7 @@
         Disable-AzContextAutosave -Scope Process
 
         # Connect to Azure with system-assigned managed identity
-        $AzureContext = (Connect-AzAccount -Identity -AccountId 77e2ffb4-d505-492d-9883-4f0ee0f428ba).context
+        $AzureContext = (Connect-AzAccount -Identity -AccountId 77e2ffb4-d505-492d-9883-**************).context
 
         # Get available Subscriptions
         $SubscriptionList = Get-AzContext -ListAvailable
